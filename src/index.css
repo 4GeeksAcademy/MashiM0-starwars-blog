@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+width: 20%;
+margin: 1%;
+}
+
+.btn-sw{
+    background:
+#fbe122;
+  border:
+#fbe122;
+font-weight: bold;
+}
+
+.btn-sw:hover{
+  background:
+#e1cc35;
+border:
+#e1cc35;
+font-weight: bold;
+}
+
+.btn-sw:active{
+  background:
+#e1cc35;
+border:
+#e1cc35;
+font-weight: bold;
+}
+
+.btn-sw:focus{
+  background:
+#e1cc35;
+border:
+#e1cc35;
+font-weight: bold;
+}
+
