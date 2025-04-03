@@ -41,3 +41,10 @@ border:
 font-weight: bold;
 }
 
+.scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: normal;
+  margin-bottom: 50px;
+  padding-bottom: 50px
+}

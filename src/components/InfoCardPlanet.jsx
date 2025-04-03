@@ -1,9 +1,9 @@
 import React from 'react'
-import placeholderImage from "../assets/img/lafoto.png"
+import placeholderImage from "../assets/img/lafoto2.png"
 import { Link } from 'react-router-dom'
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 
-const InfoCard = ({ item }) => {
+const InfoCardPlanet = ({ item }) => {
   const { store, dispatch } = useGlobalReducer()
 
   return (
@@ -14,7 +14,7 @@ const InfoCard = ({ item }) => {
         <div className="card-body">
           <h5 className="card-title">{item.name}</h5>
           <div className='d-flex justify-content-between'>
-            <Link className='btn btn-outline-primary' to={"/character-info/"+item.uid}> 
+            <Link className='btn btn-outline-primary' to={"/planet-info/"+item.uid}> 
               LEARN MORE
             </Link>
             <button className='btn btn-warning' onClick={() =>
@@ -35,4 +35,4 @@ const InfoCard = ({ item }) => {
   )
 }
 
-export default InfoCard
+export default InfoCardPlanet
