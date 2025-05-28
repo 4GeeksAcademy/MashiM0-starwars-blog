@@ -32,6 +32,7 @@ export default function storeReducer(store, action = {}) {
         }
       case 'add_favorite':
         const newFav = action.payload
+        if (!store.favorites.find(searchItem => searchItem.name == action.payload.name))
         return {
           ...store,
           favorites: [...store.favorites, newFav]
